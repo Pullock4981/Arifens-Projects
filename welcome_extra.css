@@ -1,0 +1,21 @@
+/* media query */
+
+@media screen and (max-width: 570px) {
+    .img-logo {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        /* left: 0px; */
+        margin-top: 25px;
+    }
+
+
+    .content {
+        margin-left: 300px;
+        /* width: 1200px; */
+        /* height: auto; */
+        /* margin: auto; */
+        color: #4bd8ff;
+        position: relative;
+    }
+}

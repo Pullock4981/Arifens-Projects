@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #001920;
+}
+
+/* Card styles */
+.header{
+  position:absolute;
+  margin-bottom: 520px;
+  text-align: center;
+  margin-right: 20px;
+  color:#4BD8FF;
+  font-family: "Times New Roman";
+  text-align: center;
+  font-size: 18px;
+}
+
+.card h2{
+  color:#4BD8FF;
+  font-family: "Times New Roman";
+  text-align: center;
+  font-size: 45px;
+
+}
+.card {
+    width: 1000px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-right:20px ;
+    border: 1px solid #4BD8FF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to top, #0f3d4b8c 50%, #0f3d4b8c 50%);
+}
+
+/* Button container styles */
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Button styles */
+.number-button {
+    width: 90px;
+    height: 80px;
+    margin: 5px;
+    font-size: 20px;
+    border: 1.5px solid #4BD8FF;
+    border-radius:15px;
+    background-color: #001920;
+    color:#fff;
+    font-family: "Times New Roman";
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.number-button:hover {
+    background-color: #4BD8FF;
+}
